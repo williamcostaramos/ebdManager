@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Classes">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_classes"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Alunos">
+
+                </item>
+                <item
+                    android:id="@+id/nav_professores"
+                    android:icon="@drawable/user"
+                    android:title="Professores">
+
+                </item>
+                <item
+                    android:id="@+id/nav_diretoria"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Diretoria">
+
+                </item>
+
+
+            </menu>
+
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/revista"
+            android:title="Revistas" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/oferta"
+            android:title="Ofertas" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/user"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/relatorio"
+            android:icon="@drawable/relatorio"
+            android:title="Relatorios" />
+        <item
+            android:id="@+id/sair"
+            android:icon="@drawable/sair"
+            android:title="Sair" />
+
+
+    </group>
+</menu>
